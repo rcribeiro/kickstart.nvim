@@ -4,7 +4,8 @@
 -- See the kickstart.nvim README for more information
 vim.o.incsearch = true
 vim.wo.relativenumber = true
-
+-- Show cursor line whike in normal mode
+vim.opt.cursorline = true
 -- Buffer history chane
 vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 
