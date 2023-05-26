@@ -25,4 +25,6 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 return {
 'mbbill/undotree',
 'github/copilot.vim',
+'nvim-tree/nvim-tree.lua',
+'nvim-tree/nvim-web-devicons',
 }
