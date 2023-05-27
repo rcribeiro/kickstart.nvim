@@ -25,6 +25,10 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 -- Toggle the nvim-tree
 vim.keymap.set("n", "<leader>E", "<cmd>NvimTreeToggle<CR>", { silent = true })
 
+-- Resize nvim-tree
+vim.keymap.set("n", "<leader>+", "<cmd>NvimTreeResize +5<CR>", { silent = true })
+vim.keymap.set("n", "<leader>-", "<cmd>NvimTreeResize -5<CR>", { silent = true })
+
 return {
 'mbbill/undotree',
 'github/copilot.vim',
