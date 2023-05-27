@@ -22,6 +22,9 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 -- chmod +x the file you are in 
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
+-- Toggle the nvim-tree
+vim.keymap.set("n", "<leader>E", "<cmd>NvimTreeToggle<CR>", { silent = true })
+
 return {
 'mbbill/undotree',
 'github/copilot.vim',
