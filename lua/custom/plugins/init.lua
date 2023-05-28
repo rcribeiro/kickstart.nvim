@@ -34,4 +34,5 @@ return {
 'github/copilot.vim',
 'nvim-tree/nvim-tree.lua',
 'nvim-tree/nvim-web-devicons',
+'mfussenegger/nvim-dap-python',
 }
