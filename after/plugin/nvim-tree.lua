@@ -8,3 +8,6 @@ vim.opt.termguicolors = true
 -- empty setup using defaults
 require("nvim-tree").setup()
 
+-- setup a key map for :NvimTreeFindFile which will open the tree and select the current file
+vim.api.nvim_set_keymap("n", "<leader>ff", ":NvimTreeFindFile<CR>", { noremap = true, silent = true })
+
